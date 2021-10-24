@@ -30,7 +30,7 @@ main{
   margin-left: auto;
   text-align: center;
   color: var(--grey);
-  margin-top: -7.1rem;
+  margin-top: -7.0rem;
 }
 #avatar > span{
   position: absolute;
@@ -144,7 +144,7 @@ body{
 }
 
 #container{
-  margin-top: -8.3rem;
+  margin-top: -8.4rem;
 } 
 main:hover{
   border-radius: 20px;
