@@ -1,9 +1,9 @@
 const linksSocialMedia = {
   github: "thiagoabreu",
   youtube: "UCkZ7excHhlkAgUbTrpKcicw",
-  instagram: "alanzoka",
+  instagram: "valeuthiago",
   facebook: "profile.php?id=100009877538909",
-  twitter: "alanzoka"
+  twitter: "valeuthiago"
 }
 
 
@@ -36,3 +36,4 @@ function getGithubProfileInfos(){
 
 }
 getGithubProfileInfos()
+s()
