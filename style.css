@@ -80,8 +80,32 @@ ul{
   display: none;
 }
 .faixa{
-  display: none;
-}
+  display: none;}
+ 
+  @media (min-width:720px){
+    body{
+      background: url(imagens/fotofundo.png) no-repeat center/cover;
+      background-color: black;
+    
+    }
+      main{
+        background: url(imagens/backbadge.png)no-repeat center/cover;
+        width: 22.37rem;
+        height: 33.75rem;
+        background-color:black;
+        transition-property:  background-color, border-radius;
+        transition-timing-function: ease-in;
+        transition-duration: 1.7s  ;
+       
+        
+        
+      }
+      main:hover{
+        border-radius: 15px;
+        background-color: #202024;
+      } 
+    }
+  
  @media(min-width: 960px){
 
 body{
@@ -93,8 +117,12 @@ body{
     background: url(imagens/backbadge.png)no-repeat center/cover;
     width: 22.37rem;
     height: 33.75rem;
-    background-color: #202024;
-    border-radius: 15px;
+    background-color:black;
+    transition-property: box-shadow, background-color, border-radius;
+    transition-timing-function: ease-in;
+    transition-duration: 1.7s  ;
+    
+    
   }
 
 
@@ -118,18 +146,11 @@ body{
 #container{
   margin-top: -8.3rem;
 } 
+main:hover{
+  border-radius: 15px;
+  background-color: #202024;
+  box-shadow: -5px -10px 30px #900, 6px 9px 15px rgb(250, 246, 0);
+-webkit-box-shadow: -5px -10px 30px #900, 6px 9px 15px rgb(255, 217, 0);
+-moz-box-shadow: -5px -10px 30px #900, 6px 9px 15px rgb(153, 138, 0)) 
 }
-@media (min-width:720px){
-  body{
-    background: url(imagens/fotofundo.png) no-repeat center/cover;
-    background-color: black;
-  
-  }
-    main{
-      background: url(imagens/backbadge.png)no-repeat center/cover;
-      width: 22.37rem;
-      height: 33.75rem;
-      background-color: #202024;
-      border-radius: 15px;
-    }
-}  
+}
