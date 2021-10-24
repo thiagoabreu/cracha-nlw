@@ -207,14 +207,14 @@ ul{
     }
   
     .hole{
-      display: 
+      display: none;
            
   
        
       
       }
       .faixa{
-        display 
+        display :none;
       }
   
       #container{
@@ -224,8 +224,4 @@ ul{
         text-align: center;
         color: var(--grey)
 }
-  
-  
-  
-
-  
+}
