@@ -147,10 +147,10 @@ body{
   margin-top: -8.3rem;
 } 
 main:hover{
-  border-radius: 15px;
+  border-radius: 20px;
   background-color: #202024;
   box-shadow: -5px -10px 30px #900, 6px 9px 15px rgb(250, 246, 0);
 -webkit-box-shadow: -5px -10px 30px #900, 6px 9px 15px rgb(255, 217, 0);
--moz-box-shadow: -5px -10px 30px #900, 6px 9px 15px rgb(153, 138, 0)) 
+-moz-box-shadow: -5px -10px 30px #900, 6px 9px 15px rgb(153, 138, 0);
 }
 }
