@@ -18,9 +18,9 @@ html, body{
   --grey: hsl(240, 9%, 89%);
 }
 main{
-  width: 23.4rem;
-  height: 50.75rem;
-  background: url(imagens/Mobile.png)
+  width: 100vw;
+  height: 100vh;
+  background: url(imagens/Mobile.png) no-repeat center/cover
 
 }
 
@@ -30,6 +30,7 @@ main{
   margin-left: auto;
   text-align: center;
   color: var(--grey);
+  margin-top: -7.1rem;
 }
 #avatar > span{
   position: absolute;
@@ -38,7 +39,7 @@ main{
 }
 #avatar{
   width: 10rem;
-  margin: 12.1rem auto 0;
+  margin: 11.5rem auto 0;
   position: relative;
 }
 #avatar > img{
@@ -75,8 +76,154 @@ ul{
   padding: 0;
   margin-top: 4.5rem;
  }
+.hole{
+  display: none;
+}
+.faixa{
+  display: none;
+}
+ @media(min-width: 960px){
 
 
+  main{
+  width: 358px;
+  height: 540px;
+  background: url(imagens/backbadge.png) no-repeat center/cover;
+  background-color: #202024;
+  border-radius: 1rem;
+  margin-top: 4rem;
+  }
+  body{
+    background: url(imagens/backbody.png) no-repeat center/cover;
+    background-color: black;
+    height: 100%;
+     
+   
+  }
+
+  .hole{
+    display: block;
+    position: absolute;
+     margin-top: 1rem;
+     margin: 1rem auto;
+     right:0;
+          left:0;
+         
+         
+
+     
+    
+    }
+    .faixa{
+      display: block;
+      position: relative;
+      margin-top: -8.5rem;
+      margin-right: auto;
+      margin-left: auto;
+
+    }
+
+    #container{
+      max-width: 250px;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+      color: var(--grey);
+      margin-top: auto;
+    }
+    #avatar > span{
+      position: absolute;
+      z-index: 1;
+      margin-top: -15px;
+    }
+    #avatar{
+      width: 10rem;
+      margin: 3.1rem auto 0;
+      position: relative;
+    }
+    #avatar > img{
+      width: 10rem;
+      height:  11.5rem;
+      object-fit: cover;
+      clip-path: polygon(50% 0, 100% 25%, 100% 76%, 49% 100%, 0 75%, 0 25%);
+    }
+  }
+@media(min-width: 0px ) and (max-width:420px)   {
+   
+ 
+  html, body{
+    height: 100%;
+    place-items: center;
+    
+   
+  }
+    body{
+    display: grid;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+   
+    --grey: hsl(240, 9%, 89%);
+  }
+  main{
+    width:100vw;
+    height: 100vh;
+    background: url(imagens/Mobile.png) no-repeat center/cover fixed;
+    background-attachment: fixed;
+
+  
+  }
+  
+  #container{
+    max-width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: var(--grey);
+    
+  }
+  .hole{
+    display: none;
+  }
+  .faixa{
+    display: none;
+  }
+}
+
+@media(min-width:720px){
+  main{
+    width: 358px;
+    height: 540px;
+    background: url(imagens/backbadge.png) no-repeat center/cover;
+    background-color: #202024;
+    border-radius: 1rem;
+    margin-top: 4rem;
+    }
+    body{
+      background: url(imagens/backbody.png) no-repeat center/cover;
+      background-color: black;
+      height: 100%;
+       
+     
+    }
+  
+    .hole{
+      display: 
+           
+  
+       
+      
+      }
+      .faixa{
+        display 
+      }
+  
+      #container{
+        max-width: 250px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        color: var(--grey)
+}
   
   
   
